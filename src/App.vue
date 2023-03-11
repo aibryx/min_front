@@ -9,11 +9,7 @@
 import axios from "axios";
 
 export default {
-  data() {
-    return {
-      response: ""
-    }
-  },
+
   methods: {
     async login() {
       const url = "https://dev.milkhunters.ru/api/v1/docs/"
@@ -22,8 +18,6 @@ export default {
         "username": "supertest",
         "password": "qwerty1234@"
       })
-
-      this.response = response.data
 
       console.log(response.data)
     }
