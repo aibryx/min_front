@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <button class="btn" @click="login">Войти</button>
-    <div class="response">Response  {{ response }}</div>
   </div>
 </template>
 
@@ -43,10 +42,6 @@ nav a {
   color: #2c3e50;
 }
 
-nav a.router-link-exact-active {
-  color: #42b983;
-}
-
 .btn {
   background: teal;
   border: 2px solid teal;
@@ -56,15 +51,5 @@ nav a.router-link-exact-active {
   height: 30px;
 }
 
-.response {
-  background: teal;
-  border: 2px solid teal;
-  border-radius: 5px;
-  color: white;
-  width: 100px;
-  height: 30px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-}
+
 </style>
